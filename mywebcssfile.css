@@ -22,11 +22,6 @@ nav li {
     margin: 0 15px;
 }
 
-nav a:link, nav a:visited {
-    text-decoration: none;
-    padding: 5px 10 px;
-}
-
 h1 {
     font-family:'Courier New', Courier, monospace;
     color: rgb(255, 120, 0);

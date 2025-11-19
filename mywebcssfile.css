@@ -1,6 +1,12 @@
 title {
-    font-family: "Arial", Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 120, 0);
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 120, 0);
+    font-size: 1.5rem;
 }
 
 a:link {
@@ -19,5 +25,5 @@ a:active {
 }
 
 a:focus {
-    color: purple;
+    color: green;
 }

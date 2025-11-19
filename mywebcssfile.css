@@ -1,12 +1,37 @@
-title {
+body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 120, 0);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(194, 84, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 h1 {
     font-family:'Courier New', Courier, monospace;
     color: rgb(255, 120, 0);
     font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
 }
 
 a:link {

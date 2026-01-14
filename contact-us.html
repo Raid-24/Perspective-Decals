@@ -3,30 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Perspective Decals</title>
+    <title>Contact Us - Perspective Decals</title>
     <link rel="stylesheet" href="mystyles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                
-            </div>
-            <ul>
-                <h1><a href="index.html">Perspective Decals</a></h1>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sticker-category.html">Sticker Category</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-            </ul>
-            <div>
-                
-            </div>
-        </nav>
-    </header>
+    <br>
+    <br>
+    <br>
+    <a href="index.html" class="back" style="margin:60px;color: black;"><strong> < GO BACK</strong></a>
+    <div style="text-align: center;">
+        <h1 style="font-family: lucida handwriting; color: rgb(190, 0, 0); font-size:40px;">We'd love to hear from you!</h1>
+    </div>
     <main>
         <section>
-            <img src="">
-            <p></p>
+            <form>
+                <fieldset>
+                    <legend><strong>Contact Us</strong></legend>
+                    <p style="font-size: 16px;">Fields with an asterisk (<span class="required">*</span>) are required.</p><br>
+                    <div style="text-align: right;">
+                        <p>
+                            <label for="name">Name:</label>
+                                <span class="required">*</span>
+                            <input type="text" id="name" name="name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                                <span class="required">*</span>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="message">Message:</label>
+                                <span class="required">*</span>
+                            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit" style="background-color: rgb(190, 0, 0);
+                            color:white; border: solid rgb(190, 0, 0); font-size: 18px; padding: 5px; font-weight: bold; margin: 20px 0px 0px 0px;">
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
 </body>

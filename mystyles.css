@@ -1,42 +1,52 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: whitesmoke;
-    padding: 10px;
     font-size: 20px;
+    z-index: 1000;
+}
+
+.nav-logo {
+    height: 12vw;
+    width: auto;
+    margin: 0 5vw;
+    vertical-align: left;
 }
 
 nav div {
     background-image: linear-gradient(to right, #d50000, #ff6f00, #ffc400, #69d200, #00bfa5, #003fed, #8400ff, #d500f9, #d50000);
-    padding: 1.5px;
+    padding: 3px;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 20px;
+    margin: -20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
 
 nav li {
-    margin: 0 20px;
+    margin: 50px 40px;
 }
 
 h1 {
     color: black;
-    font-size: 20px;
-    margin: 0 20px;
-    justify-items: left;
+    font-size: 1.5rem;
+    margin: 0 10px;
 }
 
 nav a:link {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 h1 a:visited {
@@ -44,15 +54,15 @@ h1 a:visited {
 }
 
 li a:visited {
-    color: purple;
+    color: rgb(190, 0, 0);
 }
 
 li a:hover {
-    color: red;
+    color: rgb(0, 200, 255);
 }
 
 nav a:focus {
-    color: rgb(64, 128, 0);
+    color: #9a00ed;
 }
 
 li a:active {
@@ -63,9 +73,46 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 18px;
-    line-height: 16px;
-    margin: 20px;
+a.button {
+    color: rgb(190, 0, 0);
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 3px solid rgb(190, 0, 0);
+    padding: 5px;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+fieldset {
+    font-size: 20px;
+    text-align: center;
+    border-image: linear-gradient(to right, #d50000, #ff6f00, #ffc400, #69d200, #00bfa5, #003fed, #8400ff, #d500f9, #d50000) 1;
+    padding: 40px 200px;
+    margin: 75px;
+}
+
+.required {
+    color: red;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: black;
+}
+
+.back {
+    font-size: 1.2rem;
+    margin: 60px;
+    color: rgb(255, 0, 0);
 }

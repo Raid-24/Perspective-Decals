@@ -12,11 +12,20 @@ header {
     width: 100%;
     background-color: whitesmoke;
     font-size: 20px;
-    z-index: 1000;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 18vw 10px 20px 10px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .nav-logo {
-    height: 12vw;
+    height: 10vw;
     width: auto;
     margin: 0 5vw;
     vertical-align: left;
@@ -36,7 +45,7 @@ nav ul {
 }
 
 nav li {
-    margin: 50px 40px;
+    margin: 40px 30px;
 }
 
 h1 {
@@ -74,15 +83,15 @@ a {
 }
 
 a.button {
-    color: rgb(190, 0, 0);
+    color: whitesmoke;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
-    margin-top: 40px;
+    font-size: 19px;
+    margin-top: 4%;
     cursor: pointer;
-    border: 3px solid rgb(190, 0, 0);
-    padding: 5px;
+    background-color: rgb(190, 0, 0);
+    padding: .5% 1%;
 }
 
 p {
@@ -109,6 +118,11 @@ footer {
     margin-top: 10px;
     font-size: 1rem;
     color: black;
+}
+
+.signup-footer {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .back {

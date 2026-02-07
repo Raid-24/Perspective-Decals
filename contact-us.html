@@ -6,36 +6,37 @@
     <title>Contact Us | Perspective Decals</title>
     <meta name="description" content="Get in touch with Perspective Decals for any questions, feedback, or support regarding our high quality vinyl stickers and waterproof decals. We're here to help you with all your sticker/decal needs!">
     <link rel="stylesheet" href="mystyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <a href="index.html" class="back" style="margin:60px;color: black;"><strong> < GO BACK</strong></a>
-    <div style="text-align: center;">
-        <h1 style="font-family: lucida handwriting; color: rgb(190, 0, 0); font-size:40px;">We'd love to hear from you!</h1>
-    </div>
+    <header>
+        <br>
+        <br>
+        <br>
+        <a href="index.html" class="back"><strong>< GO BACK</strong></a>
+    </header>
     <main>
+        <h1 class="contact-head"> We'd love to hear from you!</h1>
         <section>
-            <form>
+            <form action="" method="POST">
                 <fieldset>
-                    <legend><strong>Contact Us</strong></legend>
-                    <p style="font-size: 16px;">Fields with an asterisk (<span class="required">*</span>) are required.</p><br>
+                    <legend>Contact Us</legend>
+                    <p style="font-size: 1rem;">Fields with an asterisk (<span class="required">*</span>) are required.</p><br>
                     <div style="text-align: right;">
                         <p>
                             <label for="name">Name:</label>
                                 <span class="required">*</span>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" minlength="2" required>
                         </p>
                         <p>
                             <label for="email">Email:</label>
                                 <span class="required">*</span>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" placeholder="name@email.com" minlength="10" required>
                         </p>
                         <p>
                             <label for="message">Message:</label>
                                 <span class="required">*</span>
-                            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                            <textarea id="message" name="message" rows="4" cols="50" minlength="20" maxlength="200" required></textarea>
                         </p>
                         <p>
                             <input type="submit" value="Submit" style="background-color: rgb(190, 0, 0);
@@ -50,5 +51,6 @@
         <br>
         <p style="font-size: 1rem;"> &copy; 2026 Perspective Decals. All rights reserved.</p>
     </footer>
+    <script src="contact-form.js"></script>
 </body>
 </html>

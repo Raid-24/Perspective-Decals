@@ -17,17 +17,20 @@ header {
 h2 {
     font-size: 2rem;
     text-align: center;
-    margin: 14vw 1rem 1rem 1rem;
+    margin: 8rem 1rem 1rem 1rem;
 }
 
-.underline {
+.join-head {
+    font-family: lobster, cursive;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
     text-decoration: underline;
 }
 
 .nav-logo {
-    height: 10vw;
+    height: 8rem;
     width: auto;
-    margin: 0 5vw;
+    margin: 0 1rem;
     vertical-align: left;
 }
 
@@ -95,27 +98,93 @@ a.button {
 }
 
 p {
-    font-size: 1.6rem;
-    line-height: 1.8;
-    margin: 30px 10px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1rem 1.5rem;
+    text-align: center;
+}
+
+.back {
+    font-size: 1.2rem;
+    margin: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+.category-head {
+    font-size: 2.2rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(190, 0, 0);
+    margin-top: 6.8rem;
+    text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.contact-head {
+    font-size: 2.2rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(190, 0, 0);
+    margin-top: 6.8rem;
     text-align: center;
 }
 
 fieldset {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
     border-image: linear-gradient(to right, #d50000, #ff6f00, #ffc400, #69d200, #00bfa5, #003fed, #8400ff, #d500f9, #d50000) 1;
-    padding: 40px 200px;
-    margin: 75px;
+    padding: 1rem 1rem;
+    margin: 3rem;
+}
+
+.welcome-head {
+    font-family: 'Lobster', cursive;
+    color: rgb(190, 0, 0);
+    font-size: 2.6rem;
+    margin-top: 6.8rem;
+    text-align: center;
+}
+
+.about-head {
+    font-family: 'Lobster', cursive;
+    color: rgb(190, 0, 0);
+    font-size: 2.6rem;
+    margin-top: 6.8rem;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin: 1rem 1.5rem;
+    text-align: center;
 }
 
 .required {
     color: red;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: 1rem;
     font-size: 1rem;
     color: black;
 }
@@ -125,8 +194,10 @@ footer {
     text-decoration: none;
 }
 
-.back {
-    font-size: 1.2rem;
-    margin: 60px;
-    color: rgb(255, 0, 0);
+.success-head {
+    font-family: 'Lobster', cursive;
+    color: rgb(190, 0, 0);
+    font-size: 2.6rem;
+    margin-top: 6.8rem;
+    text-align: center;
 }
